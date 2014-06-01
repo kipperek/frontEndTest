@@ -1,0 +1,21 @@
+
+/* About */
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 380px;
+    height: 150px;
+    border: 2px solid #b6b6b6;
+    
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    font-size: 15px;
+    background-color: #fafafa;
+   
+}
+#container .containerWrap{
+    margin: 20px;
+    padding: 0;
+}

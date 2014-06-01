@@ -1,0 +1,148 @@
+
+/* WEATHER */
+#wWrap1{
+    display: none;
+}
+#weatherFieldset{
+    padding-top: 20px;
+}
+.scale{
+    width: 50px;
+    height: 20px;
+    line-height: 22px;
+    border:1px solid #e3e3e3;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+.scale:hover{
+    background: #fafafa;
+}
+.active_scale{
+    background: #2e1b45;
+    border:1px solid #2e1b45;
+    color:white;
+}
+.active_scale:hover{
+    background: #422863;
+}
+#weatherDiv{
+   margin-top: 20px;
+}
+
+.wIcon{
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 64px;
+    width: 64px;
+}
+
+#current{
+    margin-bottom: 20px;
+}
+
+#currentIcon{
+    display: inline-block;
+    vertical-align: top;
+}
+#currentDesc{
+    width: 80px;
+    display: inline-block;
+    vertical-align:top;
+    margin-left: 10px;
+}
+#cTemp{
+    font-size: 30px;
+    font-weight: bold;
+}
+#currentDetails{
+    margin-left: 20px;
+    display: inline-block;
+    font-size: 13px;
+}
+table .left{
+    padding-right: 20px;
+}
+
+
+.forecastDay{
+    position: relative;
+    cursor:default;
+}
+.forecastDay:hover{
+    background: #F7F7F7;
+}
+.forecastDay .wIcon{
+    margin: 0 auto 0 auto;
+}
+#forecast{
+    display: inline-block;
+    border-right:1px solid #e3e3e3;
+}
+.forecastDay{
+    text-align: center;
+    width: 100px;
+    padding:5px;
+    border-left:1px solid #e3e3e3;
+   
+    display: inline-block;
+}
+.dateForecast{
+    font-size:12px;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+.forecastAvg{
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.forecastTemps{
+    font-size: 10px;
+    
+}
+.forecastTemps table{
+    margin: 0 auto 0 auto;
+    border-collapse: collapse;
+}
+.forecastTemps table td{
+    padding-right:5px;
+    padding-left: 5px;
+}
+.leftTemp{
+    border-right: 1px solid #e3e3e3;
+}
+
+.forecastDetails{
+    padding: 10px;
+    text-align: left;
+    z-index: 2;
+    position: absolute;
+    display: none;
+    left: 130px;
+    width: 230px;
+    height:65px;
+    top: 30px;
+    background: #F7F7F7;
+    border: 1px solid #e3e3e3;
+    border-left: none;
+   
+}
+.forecastDetails table{
+    font-size: 14px;
+}
+.fdesc{
+    padding-left: 2px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.fdescArrow{
+    position: absolute;
+    top:-1px;
+    left: -15px;
+    height: 87px;
+    width: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../images/details.png);
+}

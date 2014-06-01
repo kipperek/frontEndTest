@@ -1,0 +1,115 @@
+
+/* Contact */
+#contactFieldset{
+    min-width: 500px;
+}
+
+.req{
+    color: #e1053c;
+    font-weight: bold;
+}
+.formWrap{
+    margin-top: 10px;
+    width: 291px;
+    border: 1px solid white;
+    display: inline-block;
+}
+.formLabel{
+    text-align: center;
+    margin: 0;
+    height: 27px;
+    width: 80px;
+    line-height: 27px;
+    background: #2e1b45;
+    color: white;
+   
+   
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+}
+#messageLabel{
+    height: 212px;
+    line-height: 212px;
+    margin: 0;
+}
+input[type=text]{
+    font-family:Arial, Verdana, Tahoma;
+    vertical-align: top;
+    border-radius: 0;
+    margin: 0;
+    border:1px solid #e3e3e3;
+    border-left: none;
+    margin: 0;
+    outline: none;
+    width: 200px;
+    padding: 0 5px 0 5px;
+    height: 25px;
+    display: inline-block;
+    box-shadow: none;
+}
+textarea{
+    font-family:Arial, Verdana, Tahoma;
+    resize: none;
+    height: 200px;
+    border: 1px solid #e3e3e3;
+    border-left: none;
+    margin: 0;
+    padding: 5px;
+    width: 200px;
+    display: inline-block;
+    outline: none;
+
+}
+#submitWrap{
+    text-align: right;
+}
+input[type=submit]{
+    font-family:Arial, Verdana, Tahoma;
+    cursor: pointer;
+    margin-top: 5px;
+    height: 30px;
+    width: 80px;
+    background: #2e1b45;
+    border: none;
+    color: white;
+    outline: none;
+}
+input[type=submit]:hover{
+    background: #422863;
+}
+input[type=submit]:active{
+     background:  #e1053c;
+}
+input[type=submit]::-moz-focus-inner {
+  border: 0;
+}
+.error{
+    border: 1px solid #e1053c;
+}
+.errorWraper{
+    display: inline-block;
+    margin-left:5px;
+    vertical-align: bottom;
+    height: 29px;
+    display: none;
+}
+.errorDiv{   
+    background: #e1053c;
+    margin: 0px;
+    padding: 0 10px 0 10px;
+    color: white;
+    font-size: 12px;
+    height: 29px;
+    line-height: 31px;
+    vertical-align: top;
+    display: inline-block;
+}
+.errorImage{
+    height: 29px;
+    width:8px;
+    display: inline-block;
+    vertical-align: top;
+    background: url(../images/error.png);
+    margin: 0px;
+}
